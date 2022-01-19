@@ -1,0 +1,323 @@
+body {
+    background-color:#fcfcfc;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #34421e;
+    font-size: 1.2em;
+    height: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.navbar a {
+    color: #f1f1ef;
+}
+.navbar a:hover {
+    color: #d6efc7;
+}
+.navbar-nav li:hover > ul.dropdown-menu {
+    display: block;
+}
+
+.podmenu {
+    list-style-type: none;
+    padding-left: 12%;
+}
+.dropdown-menu {
+    background-color: beige;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.navbar .dropdown-menu a {
+    color: #34421e;
+}
+.navbar .dropdown-menu a:hover {
+    color: #2c1e42;
+    text-decoration: none;
+    font-weight: bold;
+}
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: rgb(255, 102, 203);
+}
+.srednji-linkovi {
+    margin-left: 50%;
+}
+
+/* HOVER PROFILNA IKONA */
+.prijava {
+    background-color: beige;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    display: none;
+    min-width: 160px;
+    position: absolute;
+    right: 5%;
+    z-index: 1;
+}
+.prijava ul {
+    list-style-type: none;
+    padding: 8%;
+}
+.prijava a {
+    color: #34421e;
+}
+.prijava a:hover {
+    color: #2c1e42;
+    font-weight: bold;
+    text-decoration: none;    
+}
+
+/* REDAK ISPOD NAVBARA */
+.redak {
+    background-color: #ccd0c7;
+    background-image: url('../images/front_images/header_back.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1.2em;
+    height: 60px;
+    padding-left: 5%;
+    padding-right: 5%;    
+    padding-top: 1%;  
+    }
+.redak a {
+    color: #34421e;
+    font-size: 1.1em;    
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;    
+}
+.redak a:hover {
+    color: #d6efc7;
+    text-decoration: none;    
+}
+
+/* KARTICE PROIZVODA */
+/*
+.kartica {
+    border: none;
+     }
+.kartica:hover {
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.kartica-slika {
+    width: 100%;
+    
+}
+*/
+.kartica-vrh {
+    height: 10rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    }
+    
+    .kartica {
+    height: 20rem;
+    border: 1px solid #679267;
+    border-radius: 2px;
+    }
+    .kartica:hover {
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    }
+    .prod-link {
+        color: #0c0c0c;
+    }
+    .prod-link:hover {
+        color: #00563f;
+        font-weight: bold;
+    }
+  
+/* KRAJ KARTICE */
+.jumbotron {
+    height: 400px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+   
+}
+.logo-box {
+    left: 7%;
+    top: 70%;
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    z-index: 10;
+    background: transparent;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat; 
+}
+
+/* DIV ZA CENTRIRANJE SADRŽAJA */
+.center-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: fit-content;
+    
+}
+
+/* REDAK ISPOD HEADERA */
+
+.kocka {
+    background-color: burlywood;
+    background-image: url('../images/front_images/header_back.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.jumbo {
+    border-bottom: 8px solid #34421e;
+    color: #34421e;
+    font-size: 3em;
+    font-weight: bold;
+   
+    text-transform: uppercase;
+}
+.slika-hero {
+    background-color: #ccd0c7;    
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    height: 300px;
+    width: 300px;    
+}
+/* COVER SLIKA */
+.naslovna-slika {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    height: 40vh;
+}
+.naslov {
+    background-color: #34421e;
+    color: white;
+    height: 4rem;
+    padding: 1rem;
+   
+}
+.naslov-cart {
+    border: 1px solid #34421e;
+    border-radius: 5px;
+    color: #34421e;
+    font-weight: 700;
+    height: 4rem;
+    padding: 1rem;
+   
+}
+/* BUTTONS */
+.gumb { 
+    background-color: #34421e;
+    color: white;
+    width: 90%;}
+#qty {
+    width: 3rem;
+    text-align: center;
+}
+/* PRODUCT CARD */
+
+.prod-img {
+    position: relative;
+    width: 95%;
+    max-height: 75vh;
+    margin-top: 3rem;
+    
+}
+.prod-text-wrapper {
+    margin: 4rem; 
+    height: 100vh;
+}
+.red-slika {
+    
+    margin: 2.5%;
+}
+/* STYLING FRONT SIDEBAR*/
+.sidenav {
+    background-color: transparent;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+    /* Style the sidenav links and the dropdown button */
+    .sidenav a, .dropdown-btn {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 1.1rem;
+        color: #0c0c0c;
+        display: block;
+        border: none;
+        background: none;
+        width: 100%;
+        text-align: left;
+        cursor: pointer;
+        outline: none;
+        }
+  /* On mouse-over */
+  .sidenav a:hover, .dropdown-btn:hover {
+    color: #fcfcfc;
+     background-color: #679267;
+   
+  }
+   /* Add an active class to the active dropdown button */
+   .active {
+    background-color: #679267;
+    color: #fcfcfc;
+    
+  }
+  .dropdown-btn:focus {
+    border: none;
+    outline: none;
+    }
+  /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+  .dropdown-container {
+    display: none;
+    background-color: transparent;
+    padding-left: 8px;
+  }
+  
+  /* Optional: Style the caret down icon */
+  .fa-caret-down {
+    float: right;
+    padding-right: 8px;
+  }
+  /* DROPDOWN CARD STYLE */
+  .kosarica{
+    width: 20rem;
+    padding: 1rem;
+}
+.gumb-kartica {
+    background-color: #679267;
+    outline: none;
+    border: none;
+}
+.gumb-kartica:hover {
+    background-color: #ffb300;
+    outline: none;
+    border: none;
+}
+.gumb-kartica:active {
+    
+    outline: none;
+    border: none;
+}
+.gumb-kartica:focus {
+
+    outline: none;
+    border: none;
+}
+.panel-title {
+    background-color: #ecebbd;
+}
