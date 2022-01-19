@@ -106,3 +106,7 @@ Route::get('grupa/kategorija/{id}','CategoriesController@front_show');
 
 Route::get('grupa/kategorija/podkategorija/{id}','SubcategoriesController@front_show');
 
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
